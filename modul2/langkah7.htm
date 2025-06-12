@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh; /* agar container bisa sejajar vertikal di tengah */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-evenly; /* item tersebar merata */
+      align-items: center;
+      width: 80%; /* lebar container */
+    }
+
+    .item {
+      background-color: lightcoral;
+      padding: 20px;
+      margin: 10px;
+      flex: 1; /* agar item seimbang */
+      text-align: center;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+
+</body>
+</html>
